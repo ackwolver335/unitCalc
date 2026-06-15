@@ -43,6 +43,36 @@ class year:
     def yr2picosec(self,yr):
         self.year = yr * (3.1536 * (10 ** 19))
         return self.year
+    
+class month:
+    month = 0
+
+    def __init__(self):
+        pass
+
+    def month2yr(self,mnth):
+        self.month = mnth / 12
+        return self.month
+    
+    def month2week(self,mnth):
+        self.month = mnth * 4.34
+        return self.month
+    
+    def month2day(self,mnth):
+        self.month = mnth * 30.41
+        return self.month
+    
+    def month2hrs(self,mnth):
+        self.month = mnth * 730
+        return self.month
+    
+    def month2min(self,mnth):
+        self.month = mnth * 43800
+        return self.month
+    
+    def month2sec(self,mnth):
+        self.month = mnth * 2629800
+        return self.month
 
 class week:
     week = 0
