@@ -2,6 +2,49 @@
 # The units used in it are given below
 # Bit, byte, kb, mb, gb, tb, pb, eb, zb, yb
 
+# Below we have mentioned the Classes and methods name in the form of dictionaries elements
+
+"""------------- Methods and Classes are listed below --------------------"""
+
+data = {
+    "Bit": [
+        '__init__(self)',
+        'bt2byte(self,bt)',
+        'bt2kb(self,bt)',
+        'bt2mb(self,bt)',
+        'bt2gb(self,bt)',
+        'bt2tb(self,bt)',
+        'bt2pb(self,bt)',
+        'bt2eb(self,bt)',
+        'bt2zb(self,bt)',
+        'bt2yb(self,bt)'
+    ],
+    "Byte": [
+        '__init__(self)',
+        'byt2bt(self,byt)',
+        'byt2kb(self,byt)',
+        'byt2mb(self,byt)',
+        'byt2gb(self,byt)',
+        'byt2tb(self,byt)',
+        'byt2pb(self,byt)',
+        'byt2eb(self,byt)',
+        'byt2zb(self,byt)',
+        'byt2yb(self,byt)'
+    ],
+    "kilobyte": [
+        '__init__(self)',
+        'kb2bit(self,kb)',
+        'kb2byte(self,kb)',
+        'kb2mb(self,kb)',
+        'kb2gb(self,kb)',
+        'kb2tb(self,kb)',
+        'kb2pb(self,kb)',
+        'kb2eb(self,kb)',
+        'kb2zb(self,kb)',
+        'kb2yb(self,kb)'
+    ]
+}
+
 class Bit:
     bit = 0
 
@@ -138,7 +181,7 @@ class megabyte:
         self.mgbyt = kb * ((1024 ** 2) * 8)
         return self.mgbyt
 
-    def mb2byt(self,kb):
+    def mb2byte(self,kb):
         self.mgbyt = kb * (1024 * 8)
         return self.mgbyt
     
