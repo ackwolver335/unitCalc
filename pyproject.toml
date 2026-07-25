@@ -3,17 +3,55 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "unitcalc"
-version = "0.1.0"
+name = "ack-unitcalc"
+version = "0.1.2"
 description = "Pure Python utility library for unit and value calculations"
 readme = "README.md"
-license = "MIT"
-license-files = ["LICENSE"]
+requires-python = ">=3.8"
+
 authors = [
     { name = "Abhay Chaudhary" }
 ]
-requires-python = ">=3.8"
+
+license = "MIT"
+license-files = ["LICENSE"]
+
+keywords = [
+    "python",
+    "calculator",
+    "unit-converter",
+    "unit-conversion",
+    "bmi",
+    "temperature",
+    "length",
+    "weight",
+    "volume",
+    "time",
+    "data"
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities"
+]
+
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ackwolver335/unitCalc"
+Repository = "https://github.com/ackwolver335/unitCalc"
+Documentation = "https://github.com/ackwolver335/unitCalc#readme"
+"Bug Tracker" = "https://github.com/ackwolver335/unitCalc/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
